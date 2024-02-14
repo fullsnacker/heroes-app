@@ -1,8 +1,6 @@
 import { Link } from 'react-router-dom';
 
 const CharactersByHero = ({ alter_ego, characters }) => {
-	// if ( alter_ego === characters ) return (<></>);
-	// return <p>{ characters }</p>
 	return alter_ego === characters ? <></> : <p>{characters}</p>;
 };
 
@@ -15,8 +13,6 @@ export const HeroCard = ({
 	characters
 }) => {
 	const heroImageUrl = `/assets/heroes/${id}.jpg`;
-
-	// const charactesByHero =  (<p>{ characters }</p>);
 
 	return (
 		<div className="col animate__animated animate__fadeIn">
