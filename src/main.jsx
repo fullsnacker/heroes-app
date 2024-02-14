@@ -10,5 +10,5 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 		<BrowserRouter>
 			<HeroesApp />
 		</BrowserRouter>
-	</React.StrictMode>,
+	</React.StrictMode>
 );
