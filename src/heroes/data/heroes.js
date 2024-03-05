@@ -52,7 +52,7 @@ export const heroes = [
 		id: 'dc-martian',
 		superhero: 'Martian Manhunter',
 		publisher: 'DC Comics',
-		alter_ego: 'J\'onn J\'onzz',
+		alter_ego: "J'onn J'onzz",
 		first_appearance: 'Detective Comics #225',
 		characters: 'Martian Manhunter'
 	},
